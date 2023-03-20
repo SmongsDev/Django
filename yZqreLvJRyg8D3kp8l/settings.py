@@ -35,7 +35,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [".run.goorm.io"]
+ALLOWED_HOSTS = ['*']# [".run.goorm.io"]
 
 
 # Application definition
@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'accountapp',
     'articleapp',
     'commentapp',
+    'projectapp',
 ]
 
 MIDDLEWARE = [

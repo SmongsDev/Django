@@ -5,7 +5,8 @@
 <div>
     <div class="pragmatic_50px_div">
         {% if target_user.profile %}
-        <img src="{{ target_user.profile.image.url }}" alt="" style="height: 12rem; width: 12rem; border-radius: 10rem; margin-bottom: 2rem;">
+        <img src="{{ target_user.profile.image.url }}" alt="" 
+             style="height: 12rem; width: 12rem; border-radius: 10rem; margin-bottom: 2rem; object-fit: cover;">
         
         <h2 style="font-family: 'NanumSquareB'">
             {{ target_user.profile.nickname }}

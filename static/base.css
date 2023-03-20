@@ -22,3 +22,27 @@
     max-width: 500px; 
     margin: 4rem auto
 }
+
+
+@media screen and (max-width:500px){
+    html {
+        font-size: 13px;
+    }
+}
+
+a {
+    color: block;
+}
+
+a:hover {
+    color: block;
+    text-decoration: none;
+}
+
+.pragmatic_header_nav {
+    margin: 0 0.5rem;
+}
+
+.pragmatic_header_navbar {
+    margin: 1rem 0;
+}
