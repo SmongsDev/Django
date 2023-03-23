@@ -18,25 +18,9 @@
 }
 
 .pragmatic_50px_div{
-    text-align:center; 
+    text-align: center;
     max-width: 500px; 
-    margin: 4rem auto
-}
-
-
-@media screen and (max-width:500px){
-    html {
-        font-size: 13px;
-    }
-}
-
-a {
-    color: block;
-}
-
-a:hover {
-    color: block;
-    text-decoration: none;
+    margin: 4rem auto;
 }
 
 .pragmatic_header_nav {
@@ -45,4 +29,20 @@ a:hover {
 
 .pragmatic_header_navbar {
     margin: 1rem 0;
+}
+
+@media screen and (max-width:500px){
+    html {
+        font-size: 13px;
+    }
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    /* text-decoration: none; */
 }
